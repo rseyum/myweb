@@ -39,36 +39,10 @@ const database = {
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     }
   ],
-  reviews: [
-    {
-      id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
-      author: {
-        name: '',
-        designation: 'Web Developer, Abc Company'
-      }
-    },
-    {
-      id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
-      author: {
-        name: '',
-        designation: 'Client'
-      }
-    },
-    {
-      id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      author: {
-        name: '',
-        designation: 'Fiverr Client'
-      }
-    }
-  ],
   skills: [
     {
       title: "HTML5",
-      value: 95
+      value: 100
     },
     {
       title: "CSS3",
@@ -76,7 +50,7 @@ const database = {
     },
     {
       title: "Javascript",
-      value: 70
+      value: 90
     },
     {
       title: "Trello",
@@ -102,22 +76,19 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "",
-      subtitle: "",
-      imageUrl: "",
-      largeImageUrl: [""],
-      url: ''
+      title: "Snake Game",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/snake.jpg",
+      largeImageUrl: ["images/snake.jpg"],
+      url: 'https://github.com/rseyum/SnakeGame'
     },
     {
       id: 2,
-      title: "",
-      subtitle: "",
-      imageUrl: "",
-      largeImageUrl: [
-        "",
-        ""
-      ],
-      url: ''
+      title: "Black Jack",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/blackJack.jpg",
+      largeImageUrl: ["images/blackJack.jpg"],
+      url: 'https://github.com/rseyum/Blackjack'
     },
     {
       id: 3,
@@ -131,47 +102,26 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "May 2021 - February 2022",
+        position: "Medical Device Assembler,Tester and Programmer",
+        company: "Computech Corporation",
+        details: "• Assembled FLX Thermage Tips per requirement, blueprint, or design, ensuring the best product quality.• Tested functionality of Ventx ultrasonic system Tips and handpieces, ensuring zero error. • Programmed Ventx tower, Tips, and handpieces ensuring productions were on schedule.  • Inspected Vesor, powerX handpiece for defects per documents ensuring 100% compliance. • Packaged and audited the products and reported daily produced quantities.• Trained New employees on various production lines, ensuring that 100% of production lines were on schedule and compliant with the standards. • Performed comprehensive medical device testing and reduced failure.• Reviewed, inspected, and resolved electromechanical issues when needed."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2021",
+        graduation: "",
+        university: "Year Up",
+        details: "Application Development Track"
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2021",
+        graduation: "",
+        university: "Seattle Central College",
+        details: "Application Development Track"
       }
     ]
   },
