@@ -29,7 +29,7 @@ function Resumes() {
         <title>Resume - rahel React Personal Portfolio Template</title>
         <meta
           name="description"
-          content="rahel React Personal Portfolio Template Resume Page"
+          content="Rahel Seyum"
         />
       </Helmet>
       <div className="mi-skills-area mi-section mi-padding-top">
