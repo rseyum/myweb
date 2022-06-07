@@ -76,24 +76,9 @@ const database = {
     }
   ],
   portfolios: [
+   
     {
       id: 1,
-      title: "Snake Game",
-      subtitle: "HTML, CSS, and JavaScript",
-      imageUrl: "images/snake.jpg",
-      largeImageUrl: ["images/snake.jpg"],
-      url: 'https://github.com/rseyum/SnakeGame'
-    },
-    {
-      id: 2,
-      title: "Black Jack",
-      subtitle: "HTML, CSS, and JavaScript",
-      imageUrl: "images/blackJack.jpg",
-      largeImageUrl: ["images/blackJack.jpg"],
-      url: 'https://github.com/rseyum/Blackjack'
-    },
-    {
-      id: 3,
       title: "Professional Of The Week Award!",
       subtitle: "Issued on June 2022",
       imageUrl: "images/potw.png",
@@ -101,13 +86,37 @@ const database = {
       url: ''
     },
     {
-      id: 4,
+      id: 2,
       title: "Personal Portal!",
       subtitle: "HTML, CSS, JavaScript",
       imageUrl: "images/portal.png",
       largeImageUrl: ["images/portal.png"],
       url: 'https://rseyum.github.io/portal-it115'
     },
+    {
+    id: 3,
+    title: "Netflix Clone!",
+    subtitle: "ReactJS",
+    imageUrl: "images/netflix.png",
+    largeImageUrl: ["images/netflix.png"],
+    url: 'https://netflix-25d49.web.app'
+  },
+  {
+    id: 4,
+    title: "Snake Game",
+    subtitle: "HTML, CSS, and JavaScript",
+    imageUrl: "images/snake.jpg",
+    largeImageUrl: ["images/snake.jpg"],
+    url: 'https://github.com/rseyum/SnakeGame'
+  },
+  {
+    id: 5,
+    title: "Black Jack",
+    subtitle: "HTML, CSS, and JavaScript",
+    imageUrl: "images/blackJack.jpg",
+    largeImageUrl: ["images/blackJack.jpg"],
+    url: 'https://github.com/rseyum/Blackjack'
+  }
   ],
   experience: {
     workingExperience: [
