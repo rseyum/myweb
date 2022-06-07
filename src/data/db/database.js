@@ -94,9 +94,10 @@ const database = {
     },
     {
       id: 3,
-      title: "",
-      subtitle: "",
-      imageUrl: "",
+      title: "Professional Of The Week Award!",
+      subtitle: "Issued on June 2022",
+      imageUrl: "images/potw.png",
+      largeImageUrl: ["images/potw.png"],
       url: ''
     },
   ],
