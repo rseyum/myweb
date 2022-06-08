@@ -76,30 +76,30 @@ const database = {
     }
   ],
   portfolios: [
-    {
-      id: 1,
-      title: "Professional Of The Week Award!",
-      subtitle: "Issued on June 2022",
-      imageUrl: "images/potw.png",
-      largeImageUrl: ["images/potw.png"],
-      url: ''
-    },
-    {
-      id: 2,
-      title: "Personal Portal!",
-      subtitle: "HTML, CSS, JavaScript",
-      imageUrl: "images/portal.png",
-      largeImageUrl: ["images/portal.png"],
-      url: 'https://rseyum.github.io/portal-it115',
-    },
-    {
-    id: 3,
-    title: "Netflix Clone!",
-    subtitle: "ReactJS",
-    imageUrl: "images/netflix.png",
-    largeImageUrl: ["images/netflix.png"],
-    url: 'https://netflix-25d49.web.app'
-  },
+  //   {
+  //     id: 1,
+  //     title: "Professional Of The Week Award!",
+  //     subtitle: "Issued on June 2022",
+  //     imageUrl: "images/potw.png",
+  //     largeImageUrl: ["images/potw.png"],
+  //     url: ''
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Personal Portal!",
+  //     subtitle: "HTML, CSS, JavaScript",
+  //     imageUrl: "images/portal.png",
+  //     largeImageUrl: ["images/portal.png"],
+  //     url: 'https://rseyum.github.io/portal-it115',
+  //   },
+  //   {
+  //   id: 3,
+  //   title: "Netflix Clone!",
+  //   subtitle: "ReactJS",
+  //   imageUrl: "images/netflix.png",
+  //   largeImageUrl: ["images/netflix.png"],
+  //   url: 'https://netflix-25d49.web.app'
+  // },
   {
     id: 4,
     title: "Snake Game",
@@ -115,7 +115,16 @@ const database = {
     imageUrl: "images/blackJack.jpg",
     largeImageUrl: ["images/blackJack.jpg"],
     url: 'https://github.com/rseyum/Blackjack'
-  }
+  },
+  {
+    id:6,
+    title: "Professional Of The Week Award!",
+      subtitle: "Issued on June 2022",
+      imageUrl: "images/potw.png",
+      largeImageUrl: ["images/potw.png"],
+      url: ''
+    },
+
   ],
   experience: {
     workingExperience: [
