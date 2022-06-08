@@ -76,7 +76,6 @@ const database = {
     }
   ],
   portfolios: [
-   
     {
       id: 1,
       title: "Professional Of The Week Award!",
@@ -91,7 +90,7 @@ const database = {
       subtitle: "HTML, CSS, JavaScript",
       imageUrl: "images/portal.png",
       largeImageUrl: ["images/portal.png"],
-      url: 'https://rseyum.github.io/portal-it115'
+      url: 'https://rseyum.github.io/portal-it115',
     },
     {
     id: 3,
