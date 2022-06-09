@@ -20,7 +20,7 @@ const database = {
       github: "https://github.com/rseyum",
     },
     brandImage: "/images/rahel.jpg",
-    slide1: "/images/rahel.jpg",
+    slidel: "/images/rahel.jpg",
     slide2: "/images/rahel2.jpg",
     aboutImage: "/images/rahel2.jpg",
     aboutImageLg: "/images/rahel2.jpg",
