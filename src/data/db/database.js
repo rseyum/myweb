@@ -143,14 +143,14 @@ const database = {
       {
         id: 1,
         year: "Mar 2022 -Mar 2023",
-        graduation: "2023",
+        graduation: "March 2023",
         university: "Year Up",
         details: "Application Development Track",
       },
       {
         id: 2,
         year: "Mar 2022 - June 2024",
-        graduation: "",
+        graduation: "June 2024",
         university: "Seattle Central College",
         details: "Application Development Track",
       },
