@@ -30,7 +30,47 @@ const ControlledCarousel = () => {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          src={information.slidel}
+          src={information.slide3}
+          alt="Third slide"
+        />
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={information.slide4}
+          alt="Third slide"
+        />
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={information.slide5}
+          alt="Third slide"
+        />
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={information.slide6}
+          alt="Third slide"
+        />
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={information.slide7}
+          alt="Third slide"
+        />
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src={information.slide8}
           alt="Third slide"
         />
         <Carousel.Caption></Carousel.Caption>
