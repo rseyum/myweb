@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
+import ControlledCarousel from "../components/ControlledCarousel";
 import Particle from "../components/Particle";
 import Socialicons from "../components/Socialicons";
 
@@ -34,6 +35,7 @@ function Home({ lightMode }) {
                   <span className="color-theme">{information.name}</span>
                 </h1>
                 <p>{information.aboutContent}</p>
+                <ControlledCarousel/>
                 <p>{information.aboutContent1}</p>
                 <p>{information.aboutContent2}</p>
                 <Socialicons bordered />
