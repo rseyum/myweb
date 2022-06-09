@@ -28,8 +28,8 @@ const database = {
     slide6: "/images/6.jpg",
     slide7: "/images/7.jpg",
     slide8: "/images/8.jpg",
-    aboutImage: "/images/rahel2.jpg",
-    aboutImageLg: "/images/rahel2.jpg",
+    aboutImage: "/images/6.jpg",
+    aboutImageLg: "/images/6.jpg",
     cvfile: "/files/Rahel_Seyum.pdf",
   },
   services: [
