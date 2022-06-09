@@ -20,8 +20,8 @@ const database = {
       github: "https://github.com/rseyum",
     },
     brandImage: "/images/rahel.jpg",
-    rahel: "/images/rahel.jpg",
-    rahel2: "/images/rahel2.jpg",
+    slide1: "/images/rahel.jpg",
+    slide2: "/images/rahel2.jpg",
     aboutImage: "/images/rahel2.jpg",
     aboutImageLg: "/images/rahel2.jpg",
     cvfile: "/files/Rahel_Seyum.pdf",
@@ -142,14 +142,14 @@ const database = {
     educationExperience: [
       {
         id: 1,
-        year: "2021",
-        graduation: "",
+        year: "Mar 2022 -Mar 2023",
+        graduation: "2023",
         university: "Year Up",
         details: "Application Development Track",
       },
       {
         id: 2,
-        year: "2021",
+        year: "Mar 2022 - June 2024",
         graduation: "",
         university: "Seattle Central College",
         details: "Application Development Track",
