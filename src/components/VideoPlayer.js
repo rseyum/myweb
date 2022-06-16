@@ -13,19 +13,36 @@ function VideoPlayer() {
     });
   }, []);
   return (
-    <div className="player-wrapper">
-      <ReactPlayer
-        className="react-player"
-        url={information.videoTwoMin}
-        playing
-        // playIcon={<button>Play</button>}
-        // light={<Socialicons bordered />}
-        controls={true}
-        volume={1}
-        width="100%"
-        height="100%"
-        onReady={() => console.log("ready")}
-      />
+    <div>
+      <div className="player-wrapper">
+        <ReactPlayer
+          className="react-player"
+          url={information.videoTwoMin}
+          playing
+          // playIcon={<button>Play</button>}
+          // light={<Socialicons bordered />}
+          controls={true}
+          volume={1}
+          width="100%"
+          height="100%"
+          onReady={() => console.log("ready")}
+        />
+      </div>
+      <h1>My 30 Second Pitch!</h1>
+      <div className="player-wrapper">
+        <ReactPlayer
+          className="react-player"
+          url={information.videoThirtySec}
+          playing
+          // playIcon={<button>Play</button>}
+          // light={<Socialicons bordered />}
+          controls={true}
+          volume={1}
+          width="100%"
+          height="100%"
+          onReady={() => console.log("ready")}
+        />
+      </div>
     </div>
   );
 }
