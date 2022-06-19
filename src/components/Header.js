@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import LineIcon from "react-lineicons";
 import { Link, NavLink } from "react-router-dom";
-
+import Clock from "./Clock";
 function Header() {
   const [information, setInformation] = useState("");
   const [navigationToggler, setNavigationToggler] = useState(false);
@@ -32,7 +32,6 @@ function Header() {
             <img src={information.brandImage} alt="brandimage" />
           </Link>
         </div>
-
         <ul className="mi-header-menu">
           <li>
             <NavLink to="/" end>
@@ -60,6 +59,7 @@ function Header() {
             </NavLink>
           </li>
         </ul>
+        <Clock />
         <p className="mi-header-copyright">
           &copy; {new Date().getFullYear()}{" "}
           <b>

@@ -6,6 +6,7 @@ import ControlledCarousel from "../components/ControlledCarousel";
 import Particle from "../components/Particle";
 import Socialicons from "../components/Socialicons";
 import VideoPlayer from "../components/VideoPlayer";
+import Clock from "../components/Clock";
 function Home({ lightMode }) {
   const [information, setInformation] = useState("");
 
