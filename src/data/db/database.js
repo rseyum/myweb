@@ -134,6 +134,14 @@ const database = {
       largeImageUrl: ["images/blackJack.jpg"],
       url: "https://github.com/rseyum/Blackjack",
     },
+    {
+      id: 6,
+      title: "Group Project",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/group.JPG",
+      largeImageUrl: ["images/group.JPG"],
+      url: "https://ali810365.github.io/art/",
+    },
   ],
   experience: {
     workingExperience: [
