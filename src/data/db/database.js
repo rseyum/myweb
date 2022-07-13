@@ -142,6 +142,14 @@ const database = {
       largeImageUrl: ["images/group.JPG"],
       url: "https://ali810365.github.io/art/",
     },
+    {
+      id: 7,
+      title: "Daily Grind",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/grind.jpg",
+      largeImageUrl: ["images/grind.jpg"],
+      url: " https://rseyum.github.io/daily-grind-it121/",
+    },
   ],
   experience: {
     workingExperience: [
