@@ -150,6 +150,14 @@ const database = {
       largeImageUrl: ["images/grind.jpg"],
       url: " https://rseyum.github.io/daily-grind-it121/",
     },
+    {
+      id: 7,
+      title: "DOM Play",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/dom.jpg",
+      largeImageUrl: ["images/dom.jpg"],
+      url: "https://rseyum.github.io/Dom-play/",
+    },
   ],
   experience: {
     workingExperience: [
