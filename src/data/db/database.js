@@ -144,6 +144,14 @@ const database = {
     },
     {
       id: 7,
+      title: "Clock",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/clock.JPG",
+      largeImageUrl: ["images/clock.JPG"],
+      url: "https://rseyum.github.io/Clock/",
+    },
+    {
+      id: 8,
       title: "Daily Grind",
       subtitle: "HTML, CSS, and JavaScript",
       imageUrl: "images/grind.jpg",
@@ -151,12 +159,12 @@ const database = {
       url: " https://rseyum.github.io/daily-grind-it121/",
     },
     {
-      id: 7,
+      id: 9,
       title: "DOM Play",
       subtitle: "HTML, CSS, and JavaScript",
       imageUrl: "images/dom.jpg",
       largeImageUrl: ["images/dom.jpg"],
-      url: "https://rseyum.github.io/Dom-play/",
+      url: "https://rseyum.github.io/DOM-P/",
     },
   ],
   experience: {
