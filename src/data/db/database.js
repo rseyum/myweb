@@ -166,6 +166,14 @@ const database = {
       largeImageUrl: ["images/dom.jpg"],
       url: "https://rseyum.github.io/DOM-P/",
     },
+    {
+      id: 9,
+      title: "Seasonal",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/seasonal.jpg",
+      largeImageUrl: ["images/seasonal.jpg"],
+      url: "https://rseyum.github.io/seasonal-styles/",
+    },
   ],
   experience: {
     workingExperience: [
