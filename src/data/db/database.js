@@ -174,6 +174,14 @@ const database = {
       largeImageUrl: ["images/seasonal.jpg"],
       url: "https://rseyum.github.io/seasonal-styles/",
     },
+    {
+      id: 10,
+      title: "Web Service",
+      subtitle: "HTML, CSS, and JavaScript",
+      imageUrl: "images/service.png",
+      largeImageUrl: ["images/service.png"],
+      url: " https://web-services1.rseyum.repl.co/",
+    },
   ],
   experience: {
     workingExperience: [
