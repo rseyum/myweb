@@ -223,6 +223,14 @@ const database = {
       },
       {
         id: 2,
+        year: "Oct 2022 - Present",
+        position: "Quality Assurance Engineer Intern",
+        company: "Amazon",
+        details:
+          "• Execute test cases in a sprint, writing test summary and test progress report • Plan full testing cycle, including writing test cases, execution, and bug reporting • Communicate effectively with developers and product managers throughout the resolution process• Analyze product quality and ensure that the Customers get the best quality products per their requirements using performance indicators • Automate test cases, minimizing errors and increasing the efficiency of team workflow",
+      },
+      {
+        id: 3,
         year: "Aug 2014 - Sep 2018",
         position: "Assembler and Quality Assurance Supervisor",
         company: "Claire Electronics Solutions(Motorola Solutions)",
