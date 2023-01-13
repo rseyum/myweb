@@ -3,14 +3,10 @@ const school = "Year Up";
 const database = {
   information: {
     name: "Rahel Seyum",
-    aboutContent: `I'm a motivated Application Development Student in the ${school} program who aspires to become an all-rounded front-end engineer in the future by utilizing my skills in JavaScript, ReactJS, Redux, Git, and GitHub. In September, I will begin an internship as part of the Year-up program to help me further develop my professional skills to apply for a full-time position in software development following my internship.
-    I'm looking forward to meeting like-minded people and businesses that will give me a chance and welcome me to the industry.
-    Since I was young, I have always deconstructed every toy I had to figure out how and why they worked the way they did and then reassemble them into the whole operation. These hardware skills drew me to work as a medical device assembler, tester, and programmer. It was simple for me to break into the industry, and I worked until I had to stop for Year Up.
-    The technique for problem solving, analyzing, and breaking down the problem into components is similar in hardware and software.`,
-    aboutContent1: `It was when I pressed the play button on my first JavaScript tutorial on Scrimba.com, that the spark I'd been missing ignited. I have been on my way to my dream destination on the main highway ever since.
-    Front-end web programming appeals to all my interests; it combines creativity and problem solving, allowing me to break the code better. I enjoy using responsive design ideas and seeing how my web functions. Learning new skills and programming languages, as well as problem-solving are among my talents.`,
-    language: "English, Tigrgna, Amharic",
-    aboutContent2: `We, as humans, become bored with routine tasks. We frequently hunt for new and exciting things to do to break it. Hobbies are the most effective technique to divert attention while working. As a hobby, I educate children in a small community and like seeing them grow in love, knowledge, and discipline. My skills include. JavaScript and ReactJS, Redux, Git, GitHub.
+    aboutContent: `I'm a motivated Application Development Student in the ${school} program who aspires to become a well-rounded engineer by utilizing my JavaScript skills. The problem-solving, analyzing, and breaking down the problem into components is similar in hardware and software. When I pressed the play button on my first JavaScript tutorial on Scrimba.com, the spark I'd been missing ignited. 
+
+    Since I was young, I have always deconstructed every toy I had to figure out how and why they worked the way they did and then reassemble them into the whole operation. These hardware skills drew me to work as a medical device assembler, tester, QA, and programmer. Working with complex hardware made me want to dive into the world of tech and led me to the Year Up Program as an Application Development student and intern. I currently work for Amazon as a QAE intern.
+    
     Please feel free to connect. I'm always ready for a lively discussion, collaboration, or knowledge exchange.`,
     email: "",
     address: "Seattle, WA",
@@ -60,6 +56,30 @@ const database = {
     },
   ],
   skills: [
+    {
+      title: "Quality Assurance",
+      value: 100,
+    },
+    {
+      title: "Test Plan Writing",
+      value: 100,
+    },
+    {
+      title: "Test Case Writing",
+      value: 100,
+    },
+    {
+      title: "Bug Reporting",
+      value: 100,
+    },
+    {
+      title: "Agile/Scrum",
+      value: 100,
+    },
+    {
+      title: "UI Automation",
+      value: 100,
+    },
     {
       title: "HTML5",
       value: 100,
@@ -182,13 +202,21 @@ const database = {
       largeImageUrl: ["images/service.png"],
       url: " https://web-services1.rseyum.repl.co/",
     },
+    {
+      id: 11,
+      title: "Snake Game",
+      subtitle: "ReactJS",
+      imageUrl: "images/snake.png",
+      largeImageUrl: ["images/snake.png"],
+      url: "https://snake-game-55895.web.app",
+    },
   ],
   experience: {
     workingExperience: [
       {
         id: 1,
         year: "May 2021 - February 2022",
-        position: "Medical Device Assembler,Tester and Programmer",
+        position: "Medical Device Assembler,Tester and Quality Assurance",
         company: "Computech Corporation",
         details:
           "• Assembled FLX Thermage Tips per requirement, blueprint, or design, ensuring the best product quality.• Tested functionality of Ventx ultrasonic system Tips and handpieces, ensuring zero error. • Programmed Ventx tower, Tips, and handpieces ensuring productions were on schedule.  • Inspected Vesor, powerX handpiece for defects per documents ensuring 100% compliance. • Packaged and audited the products and reported daily produced quantities.• Trained New employees on various production lines, ensuring that 100% of production lines were on schedule and compliant with the standards. • Performed comprehensive medical device testing and reduced failure.• Reviewed, inspected, and resolved electromechanical issues when needed.",
@@ -197,7 +225,7 @@ const database = {
         id: 2,
         year: "Aug 2014 - Sep 2018",
         position: "Assembler and Quality Assurance Supervisor",
-        company: "Motorola Solutions",
+        company: "Claire Electronics Solutions(Motorola Solutions)",
         details:
           "• Checked the revision status of process documents and blueprint to meet the standard • Complied and assembled according to the process document and instructions • Implemented 5s areas at set times, improved the work environment and minimized waste • Supervised the work of junior assemblers and advised better approaches • Maximized production quality by introducing final inspection audits • Responsible for maintaining daily production logs and reporting to the production manager on employee attendance, quality, and quantity of finished items",
       },
@@ -222,7 +250,7 @@ const database = {
   contactInfo: {
     phoneNumbers: ["+12064836995"],
     emailAddress: ["rachiellseyum@gmail.com", "rseyum@sea.yearup.org"],
-    address: "Seattle WA",
+    address: "Everett WA",
   },
 };
 
