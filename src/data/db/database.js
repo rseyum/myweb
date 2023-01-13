@@ -21,7 +21,6 @@ const database = {
       github: "https://github.com/rseyum",
     },
     videoTwoMin: "youtube.com/watch?v=WyjJb0nCwMM",
-    videoThirtySec: "https://www.youtube.com/watch?v=QMnlI7lWais",
     brandImage: "/images/rahel.jpg",
     play: "images/play.png",
     pause: "images/pause.png",
