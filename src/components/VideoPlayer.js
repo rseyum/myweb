@@ -28,7 +28,6 @@ function VideoPlayer() {
           onReady={() => console.log("ready")}
         />
       </div>
-      <p>My 30 Second Pitch!</p>
       <div className="player-wrapper">
         <ReactPlayer
           className="react-player"

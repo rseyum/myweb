@@ -96,7 +96,7 @@ function About() {
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a passionate frontend web developer.
+                  I am a passionate Quality Assurance Engineer and Developer.
                 </p>
                 <ul>
                   {!information.name ? null : (
@@ -167,8 +167,7 @@ function About() {
       </div>
       <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <div className="row justify-content-center">
-          </div>
+          <div className="row justify-content-center"></div>
         </div>
       </div>
     </Layout>

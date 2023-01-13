@@ -38,20 +38,15 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
-      icon: "brush-alt",
-      details: "Figma, Trello, HTML, CSS, JavaScript, React, Redux ",
+      title: "Quality Assurance",
+      icon: "medal-first-alt",
+      details:
+        "Test planning, Testcase writing, Deffect Tracking, Deffect logging, Manual Testing, Automation Test",
     },
     {
       title: "Web Development",
       icon: "code",
       details: "Figma, Trello, HTML, CSS, JavaScript, React, Redux ",
-    },
-    {
-      title: "Mobile Application",
-      icon: "mobile",
-      details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.",
     },
   ],
   skills: [
@@ -214,20 +209,21 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "May 2021 - February 2022",
-        position: "Medical Device Assembler,Tester and Quality Assurance",
-        company: "Computech Corporation",
-        details:
-          "• Assembled FLX Thermage Tips per requirement, blueprint, or design, ensuring the best product quality.• Tested functionality of Ventx ultrasonic system Tips and handpieces, ensuring zero error. • Programmed Ventx tower, Tips, and handpieces ensuring productions were on schedule.  • Inspected Vesor, powerX handpiece for defects per documents ensuring 100% compliance. • Packaged and audited the products and reported daily produced quantities.• Trained New employees on various production lines, ensuring that 100% of production lines were on schedule and compliant with the standards. • Performed comprehensive medical device testing and reduced failure.• Reviewed, inspected, and resolved electromechanical issues when needed.",
-      },
-      {
-        id: 2,
         year: "Oct 2022 - Present",
         position: "Quality Assurance Engineer Intern",
         company: "Amazon",
         details:
           "• Execute test cases in a sprint, writing test summary and test progress report • Plan full testing cycle, including writing test cases, execution, and bug reporting • Communicate effectively with developers and product managers throughout the resolution process• Analyze product quality and ensure that the Customers get the best quality products per their requirements using performance indicators • Automate test cases, minimizing errors and increasing the efficiency of team workflow",
       },
+      {
+        id: 2,
+        year: "May 2021 - February 2022",
+        position: "Medical Device Assembler,Tester and Quality Assurance",
+        company: "Computech Corporation",
+        details:
+          "• Assembled FLX Thermage Tips per requirement, blueprint, or design, ensuring the best product quality.• Tested functionality of Ventx ultrasonic system Tips and handpieces, ensuring zero error. • Programmed Ventx tower, Tips, and handpieces ensuring productions were on schedule.  • Inspected Vesor, powerX handpiece for defects per documents ensuring 100% compliance. • Packaged and audited the products and reported daily produced quantities.• Trained New employees on various production lines, ensuring that 100% of production lines were on schedule and compliant with the standards. • Performed comprehensive medical device testing and reduced failure.• Reviewed, inspected, and resolved electromechanical issues when needed.",
+      },
+
       {
         id: 3,
         year: "Aug 2014 - Sep 2018",
